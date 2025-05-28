@@ -3,7 +3,7 @@ body {
       color: #F8FAFC;
     }
     .contact-hero {
-      background: linear-gradient(120deg,rgba(34,39,43,0.94) 90%,rgba(70,163,121,0.15) 100%), url('assets/imgs/img_2.jpg') center/cover no-repeat;
+      background: linear-gradient(120deg,rgba(34,39,43,0.94) 90%,rgba(70,163,121,0.15) 100%), url('/assets/imgs/img_2.jpg') center/cover no-repeat;
       min-height: 200px;
       display: flex;
       align-items: center;
