@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Destinations – Arou</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore nos destinations coups de cœur – Vlog de voyage, vidéos, conseils, inspiration.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/dest.css">
+</head>
+<body>
+  <!-- Hero section -->
+   <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+  <div class="container-xl" style="max-width:1100px;gap:50px">
+    <a class="navbar-brand d-flex align-items-center fs-4 fw-bold" href="#">
+      <i class="bi bi-globe2 me-2"></i> Arou
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-lg-3 gap-2 align-items-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link active" href="destinations.html">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <section class="dest-hero position-relative mb-0">
+    <div class="container text-center py-5">
+      <h1>Destinations <span style="color:#6EC1E4">Arou</span></h1>
+      <p>Découvre nos aventures à travers le monde, en vidéo et en récit.</p>
+    </div>
+  </section>
+  <!-- Filtres -->
+  <div class="dest-filters">
+    <button class="filter-tag active">Toutes</button>
+    <button class="filter-tag">Afrique</button>
+    <button class="filter-tag">Europe</button>
+    <button class="filter-tag">Asie</button>
+    <button class="filter-tag">Amérique</button>
+    <button class="filter-tag">Océanie</button>
+    <!-- Ajoute ou enlève selon besoins -->
+  </div>
+  <!-- Grid de destinations -->
+  <div class="container pb-5">
+    <div class="row g-4">
+      <!-- Card vidéo -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card dest-card h-100">
+          <video src="assets/videos/video_1.mp4" class="card-img-top" autoplay loop muted playsinline poster="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80"></video>
+          <div class="card-body">
+            <h5 class="card-title">Islande sauvage</h5>
+            <p class="card-text">Glaciers, volcans et geysers : un roadtrip inoubliable dans les paysages les plus fous de l’Europe du Nord.</p>
+            <a href="#" class="btn"><i class="bi bi-play-circle me-1"></i> Voir le vlog</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card image -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card dest-card h-100">
+          <img src="/assets/imgs/img_1.jpg" class="card-img-top" alt="Safari en Afrique">
+          <div class="card-body">
+            <h5 class="card-title">Safari en Afrique</h5>
+            <p class="card-text">Rencontre la faune sauvage et vis un dépaysement total au cœur de la savane, loin des sentiers battus.</p>
+            <a href="#" class="btn"><i class="bi bi-play-circle me-1"></i> Voir le vlog</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card vidéo -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card dest-card h-100">
+          <video src="assets/videos/video_2.mp4" class="card-img-top" autoplay loop muted playsinline></video>
+          <div class="card-body">
+            <h5 class="card-title">Japon secret</h5>
+            <p class="card-text">Temples, sakura et traditions : le Japon sous un angle inédit, en immersion dans la culture locale.</p>
+            <a href="#" class="btn"><i class="bi bi-play-circle me-1"></i> Voir le vlog</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card image -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card dest-card h-100">
+          <img src="/assets/imgs/img_2.jpg" class="card-img-top" alt="Polynésie">
+          <div class="card-body">
+            <h5 class="card-title">Polynésie</h5>
+            <p class="card-text">Plages turquoise, îles sauvages et culture océanienne, un rêve éveillé à l’autre bout du monde.</p>
+            <a href="#" class="btn"><i class="bi bi-play-circle me-1"></i> Voir le vlog</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card image -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card dest-card h-100">
+          <img src="/assets/imgs/img_3.jpg" class="card-img-top" alt="Rio de Janeiro">
+          <div class="card-body">
+            <h5 class="card-title">Rio de Janeiro</h5>
+            <p class="card-text">Rythmes, couleurs, plages et carnaval : découvre la vraie vie brésilienne, loin des clichés.</p>
+            <a href="#" class="btn"><i class="bi bi-play-circle me-1"></i> Voir le vlog</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card vidéo -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card dest-card h-100">
+          <video src="assets/videos/video_3.mp4" class="card-img-top" autoplay loop muted playsinline></video>
+          <div class="card-body">
+            <h5 class="card-title">Montagnes d’Asie centrale</h5>
+            <p class="card-text">Des steppes du Kirghizistan aux monts de l’Altaï, pour les vrais fans d’aventure et de grands espaces.</p>
+            <a href="#" class="btn"><i class="bi bi-play-circle me-1"></i> Voir le vlog</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer premium -->
+<footer class="footer pt-5 pb-2" style="background: #111316; color: #dde7ed;">
+    <div class="container">
+        <div class="row gy-5 align-items-top">
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-white fw-bold mb-3">
+                    <i class="bi bi-globe2 me-2"></i>Arou
+                </h5>
+                <p class="text-white-50 mb-3">Explore le monde autrement à travers nos vidéos, récits et conseils. Rejoins la communauté !</p>
+                <div>
+                    <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="social-icon" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                    <a href="#" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h6 class="text-uppercase text-white mb-3">Navigation</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white-50">Accueil</a></li>
+                    <li><a href="#destinations" class="text-white-50">Destinations</a></li>
+                    <li><a href="#about" class="text-white-50">L’équipe</a></li>
+                    <li><a href="#contact" class="text-white-50">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h6 class="text-uppercase text-white mb-3">Contact</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="bi bi-envelope me-2"></i>contact@arou.com</li>
+                    <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>Kipé, Guinée Conakry</li>
+                    <li><i class="bi bi-clock me-2"></i>Réponse sous 24h</li>
+                </ul>
+                <div class="mt-3">
+                    <span class="text-white-50 small">© 2024 Arou. Tous droits réservés.</span>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4" style="background:rgba(255,255,255,0.08)">
+        <div class="text-center text-white-50 small pb-2">
+            Site propulsé avec ❤️ par l’équipe Arou.
+        </div>
+    </div>
+</footer>
+<!-- Modale vidéo -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <button type="button" class="btn-close btn-close-white ms-auto m-2" data-bs-dismiss="modal"></button>
+            <div class="ratio ratio-16x9">
+                <iframe id="youtubeVideo" src="" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script pour filtres (statique, effet visuel uniquement) -->
+  <script>
+    document.querySelectorAll('.filter-tag').forEach(tag => {
+      tag.addEventListener('click', function() {
+        document.querySelectorAll('.filter-tag').forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+        // Optionnel : ajoute ta logique de filtrage ici si besoin
+      });
+    });
+  </script>
+</body>
+</html>
