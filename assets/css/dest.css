@@ -4,7 +4,7 @@ body {
       font-family: 'Segoe UI', Arial, sans-serif;
     }
     .dest-hero {
-      background: linear-gradient(120deg,rgba(34,39,43,0.96) 80%,rgba(70,163,121,0.17) 100%), url('/assets/imgs/img_2.jpg') center/cover no-repeat;
+      background: linear-gradient(120deg,rgba(34,39,43,0.96) 80%,rgba(70,163,121,0.17) 100%), url('assets/imgs/img_2.jpg') center/cover no-repeat;
       min-height: 260px;
       display: flex;
       align-items: center;
