@@ -10,7 +10,7 @@
         html, body {
             background: var(--main-bg);
             color: var(--text);
-            font-family: 'Segoe UI', Arial, sans-serif;
+            font-family: 'Poppins' !important;
             scrollbar-width: thin;              /* Firefox */
             scrollbar-color: #46A379 #23282d;   /* Firefox */
         }
